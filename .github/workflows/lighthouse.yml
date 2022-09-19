@@ -1,5 +1,6 @@
 name: Lighthouse-Test
 on: push
+jobs:
   check-google:
     runs-on: ubutu-latest
       steps:
