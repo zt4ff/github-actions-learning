@@ -5,7 +5,7 @@ jobs:
     runs-on: ubutu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: audit google.com
+      - name: audit google
         uses: treosh/lighthouse-ci-action@v9
         with:
           urls: https://www.google.com
