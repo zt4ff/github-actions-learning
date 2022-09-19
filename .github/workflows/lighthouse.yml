@@ -1,4 +1,4 @@
-name: Lighthouse Tesr
+name: Lighthouse-Test
 on: push
   check-google:
     runs-on: ubutu-latest
@@ -7,7 +7,6 @@ on: push
         - name: audit google.com
           uses: treosh/lighthouse-ci-action@v9
           with:
-            urls: |
-              https://www.google.com
+            urls: https://www.google.com
             uploadArtifacts: true
             temporaryPublicStorage: true
