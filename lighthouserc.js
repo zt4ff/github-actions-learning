@@ -1,10 +1,10 @@
 module.exports = {
   ci: {
     collect: {
-      url: ["https://www.google.com"],
+      url: ["https://www.github.com"],
     },
     uploads: {
-      target: "temporary-public-storage",
+      target: "temporart-public-storage",
     },
   },
 };
